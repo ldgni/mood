@@ -1,0 +1,98 @@
+import Navbar from "../components/Navbar";
+import Card from "../components/ui/Card";
+
+export default function StoresPage() {
+  return (
+    <>
+      <header>
+        <Navbar />
+      </header>
+      <main className="container flex flex-col items-center pb-4 pt-28 text-center">
+        <div className="flex max-w-prose flex-col gap-4 lg:gap-8">
+          <h1 className="mb-4 text-7xl font-bold uppercase">Stores</h1>
+          <p className="lg:text-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+            aperiam iure veniam eos ducimus molestiae animi voluptatibus
+            dignissimos amet quo voluptatem, cumque nihil laboriosam sint quia
+            doloremque. Unde, molestias ipsum!
+          </p>
+          <h2 className="text-5xl font-semibold uppercase">Stay tuned!</h2>
+          <p className="mb-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+            reprehenderit facilis quos quaerat nesciunt itaque temporibus
+            adipisci delectus corporis illum deleniti nulla, qui aliquid, aut
+            exercitationem. Qui atque impedit accusantium.
+          </p>
+        </div>
+        <div className="flex flex-col gap-4 lg:grid lg:grid-cols-3 lg:gap-8">
+          <Card
+            image="/images/stores/store-paris-img.jpg"
+            title="Paris"
+            address="123 Paris Street"
+            openingHours="Mon - Fri: 9am - 5pm"
+            email="paris@mood.com"
+            socials={[
+              { name: "facebook", url: "https://facebook.com" },
+              { name: "instagram", url: "https://instagram.com" },
+            ]}
+          />
+          <Card
+            image="/images/stores/store-london-img.jpg"
+            title="London"
+            address="123 London Street"
+            openingHours="Mon - Fri: 9am - 5pm"
+            email="london@mood.com"
+            socials={[
+              { name: "facebook", url: "https://facebook.com" },
+              { name: "instagram", url: "https://instagram.com" },
+            ]}
+          />
+          <Card
+            image="/images/stores/store-luxembourg-img.jpg"
+            title="Luxembourg"
+            address="123 Luxembourg Street"
+            openingHours="Mon - Fri: 9am - 5pm"
+            email="luxembourg@mood.com"
+            socials={[
+              { name: "facebook", url: "https://facebook.com" },
+              { name: "instagram", url: "https://instagram.com" },
+            ]}
+          />
+          <Card
+            image="/images/stores/store-la-img.jpg"
+            title="Los Angeles"
+            address="123 Los Angeles Street"
+            openingHours="Mon - Fri: 9am - 5pm"
+            email="la@mood.com"
+            socials={[
+              { name: "facebook", url: "https://facebook.com" },
+              { name: "instagram", url: "https://instagram.com" },
+            ]}
+          />
+          <Card
+            image="/images/stores/store-berlin-img.jpg"
+            title="Berlin"
+            address="123 Berlin Street"
+            openingHours="Mon - Fri: 9am - 5pm"
+            email="berlin@mood.com"
+            socials={[
+              { name: "facebook", url: "https://facebook.com" },
+              { name: "instagram", url: "https://instagram.com" },
+            ]}
+          />
+          <Card
+            image="/images/stores/store-brussels-img.jpg"
+            title="Brussels"
+            address="123 Brussels Street"
+            openingHours="Mon - Fri: 9am - 5pm"
+            email="brussels@mood.com"
+            socials={[
+              { name: "facebook", url: "https://facebook.com" },
+              { name: "instagram", url: "https://instagram.com" },
+            ]}
+          />
+        </div>
+      </main>
+    </>
+  );
+}

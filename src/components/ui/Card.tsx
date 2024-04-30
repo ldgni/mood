@@ -1,0 +1,37 @@
+import { Facebook, Instagram } from "lucide-react";
+
+type CardProps = {
+  image: string;
+  title: string;
+  address: string;
+  openingHours: string;
+  email: string;
+  socials: { name: "facebook" | "instagram"; url: string }[];
+};
+
+export default function Card({
+  image,
+  title,
+  address,
+  openingHours,
+  email,
+  socials,
+}: CardProps) {
+  return (
+    <div className="flex max-w-lg flex-col items-center gap-2 overflow-hidden rounded-3xl bg-[#f1ebe1] pb-4 text-lg text-[#392d50] shadow">
+      <img src={image} alt={title} />
+      <h2 className="text-4xl font-semibold">{title}</h2>
+      <p>{address}</p>
+      <p>{openingHours}</p>
+      <p>{email}</p>
+      <div className="mt-2 flex gap-4">
+        {socials.map((social, index) => (
+          <a key={index} href={social.url}>
+            {social.name === "facebook" && <Facebook size={32} />}
+            {social.name === "instagram" && <Instagram size={32} />}
+          </a>
+        ))}
+      </div>
+    </div>
+  );
+}
