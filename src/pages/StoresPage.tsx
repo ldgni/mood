@@ -26,7 +26,7 @@ export default function StoresPage() {
         </div>
         <div className="flex flex-col gap-4 lg:grid lg:grid-cols-3 lg:gap-8">
           <Card
-            image="/images/stores/store-paris-img.jpg"
+            image="/images/stores/store-paris-img.webp"
             title="Paris"
             address="123 Paris Street"
             openingHours="Mon - Fri: 9am - 5pm"
@@ -37,7 +37,7 @@ export default function StoresPage() {
             ]}
           />
           <Card
-            image="/images/stores/store-london-img.jpg"
+            image="/images/stores/store-london-img.webp"
             title="London"
             address="123 London Street"
             openingHours="Mon - Fri: 9am - 5pm"
@@ -48,7 +48,7 @@ export default function StoresPage() {
             ]}
           />
           <Card
-            image="/images/stores/store-luxembourg-img.jpg"
+            image="/images/stores/store-luxembourg-img.webp"
             title="Luxembourg"
             address="123 Luxembourg Street"
             openingHours="Mon - Fri: 9am - 5pm"
@@ -59,7 +59,7 @@ export default function StoresPage() {
             ]}
           />
           <Card
-            image="/images/stores/store-la-img.jpg"
+            image="/images/stores/store-la-img.webp"
             title="Los Angeles"
             address="123 Los Angeles Street"
             openingHours="Mon - Fri: 9am - 5pm"
@@ -70,7 +70,7 @@ export default function StoresPage() {
             ]}
           />
           <Card
-            image="/images/stores/store-berlin-img.jpg"
+            image="/images/stores/store-berlin-img.webp"
             title="Berlin"
             address="123 Berlin Street"
             openingHours="Mon - Fri: 9am - 5pm"
@@ -81,7 +81,7 @@ export default function StoresPage() {
             ]}
           />
           <Card
-            image="/images/stores/store-brussels-img.jpg"
+            image="/images/stores/store-brussels-img.webp"
             title="Brussels"
             address="123 Brussels Street"
             openingHours="Mon - Fri: 9am - 5pm"

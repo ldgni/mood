@@ -16,7 +16,7 @@ export default function MenuPage() {
             doloremque. Unde, molestias ipsum!
           </p>
           <img
-            src="images/flavours/flavours-img.jpg"
+            src="images/flavours/flavours-img.webp"
             alt="Different ice cream flavours"
             className="w-full max-w-2xl rounded-2xl shadow-xl"
           />
