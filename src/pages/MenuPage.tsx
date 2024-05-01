@@ -1,3 +1,4 @@
+import Copyright from "../components/Copyright";
 import Navbar from "../components/Navbar";
 
 export default function MenuPage() {
@@ -28,6 +29,9 @@ export default function MenuPage() {
           </p>
         </div>
       </main>
+      <footer>
+        <Copyright />
+      </footer>
     </>
   );
 }

@@ -1,3 +1,4 @@
+import Copyright from "../components/Copyright";
 import Navbar from "../components/Navbar";
 import Card from "../components/ui/Card";
 
@@ -93,6 +94,9 @@ export default function StoresPage() {
           />
         </div>
       </main>
+      <footer>
+        <Copyright />
+      </footer>
     </>
   );
 }

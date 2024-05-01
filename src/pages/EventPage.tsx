@@ -1,3 +1,4 @@
+import Copyright from "../components/Copyright";
 import Navbar from "../components/Navbar";
 
 export default function EventPage() {
@@ -17,6 +18,9 @@ export default function EventPage() {
           </p>
         </div>
       </main>
+      <footer>
+        <Copyright />
+      </footer>
     </>
   );
 }

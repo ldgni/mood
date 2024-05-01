@@ -1,3 +1,4 @@
+import Copyright from "../components/Copyright";
 import Navbar from "../components/Navbar";
 
 export default function AboutPage() {
@@ -17,6 +18,9 @@ export default function AboutPage() {
           </p>
         </div>
       </main>
+      <footer>
+        <Copyright />
+      </footer>
     </>
   );
 }
