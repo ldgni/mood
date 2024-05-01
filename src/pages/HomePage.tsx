@@ -1,4 +1,5 @@
 import About from "../components/About";
+import Copyright from "../components/Copyright";
 import Event from "../components/Event";
 import Franchise from "../components/Franchise";
 import Intro from "../components/Intro";
@@ -18,6 +19,9 @@ export default function HomePage() {
         <About />
         <Franchise />
       </main>
+      <footer>
+        <Copyright />
+      </footer>
     </>
   );
 }
