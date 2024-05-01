@@ -33,8 +33,8 @@ export default function StoresPage() {
             openingHours="Mon - Fri: 9am - 5pm"
             email="paris@mood.com"
             socials={[
-              { name: "facebook", url: "https://facebook.com" },
-              { name: "instagram", url: "https://instagram.com" },
+              { name: "facebook", url: "#" },
+              { name: "instagram", url: "#" },
             ]}
           />
           <Card
@@ -44,8 +44,8 @@ export default function StoresPage() {
             openingHours="Mon - Fri: 9am - 5pm"
             email="london@mood.com"
             socials={[
-              { name: "facebook", url: "https://facebook.com" },
-              { name: "instagram", url: "https://instagram.com" },
+              { name: "facebook", url: "#" },
+              { name: "instagram", url: "#" },
             ]}
           />
           <Card
@@ -55,8 +55,8 @@ export default function StoresPage() {
             openingHours="Mon - Fri: 9am - 5pm"
             email="luxembourg@mood.com"
             socials={[
-              { name: "facebook", url: "https://facebook.com" },
-              { name: "instagram", url: "https://instagram.com" },
+              { name: "facebook", url: "#" },
+              { name: "instagram", url: "#" },
             ]}
           />
           <Card
@@ -66,8 +66,8 @@ export default function StoresPage() {
             openingHours="Mon - Fri: 9am - 5pm"
             email="la@mood.com"
             socials={[
-              { name: "facebook", url: "https://facebook.com" },
-              { name: "instagram", url: "https://instagram.com" },
+              { name: "facebook", url: "#" },
+              { name: "instagram", url: "#" },
             ]}
           />
           <Card
@@ -77,8 +77,8 @@ export default function StoresPage() {
             openingHours="Mon - Fri: 9am - 5pm"
             email="berlin@mood.com"
             socials={[
-              { name: "facebook", url: "https://facebook.com" },
-              { name: "instagram", url: "https://instagram.com" },
+              { name: "facebook", url: "#" },
+              { name: "instagram", url: "#" },
             ]}
           />
           <Card
@@ -88,8 +88,8 @@ export default function StoresPage() {
             openingHours="Mon - Fri: 9am - 5pm"
             email="brussels@mood.com"
             socials={[
-              { name: "facebook", url: "https://facebook.com" },
-              { name: "instagram", url: "https://instagram.com" },
+              { name: "facebook", url: "#" },
+              { name: "instagram", url: "#" },
             ]}
           />
         </div>
