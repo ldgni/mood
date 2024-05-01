@@ -1,13 +1,11 @@
-import Copyright from "../components/Copyright";
-import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 export default function MenuPage() {
   return (
     <>
-      <header>
-        <Navbar />
-      </header>
-      <main className="container flex flex-col items-center pb-4 pt-28 text-center">
+      <Header />
+      <main className="container flex flex-col items-center pb-8 pt-28 text-center md:pb-16">
         <div className="flex max-w-prose flex-col gap-4 lg:gap-8">
           <h1 className="mb-4 text-7xl font-bold uppercase">Menu</h1>
           <p className="lg:text-lg">
@@ -29,9 +27,7 @@ export default function MenuPage() {
           </p>
         </div>
       </main>
-      <footer>
-        <Copyright />
-      </footer>
+      <Footer />
     </>
   );
 }

@@ -1,17 +1,15 @@
 import About from "../components/About";
-import Copyright from "../components/Copyright";
 import Event from "../components/Event";
+import Footer from "../components/Footer";
 import Franchise from "../components/Franchise";
+import Header from "../components/Header";
 import Intro from "../components/Intro";
-import Navbar from "../components/Navbar";
 import Stores from "../components/Stores";
 
 export default function HomePage() {
   return (
     <>
-      <header>
-        <Navbar />
-      </header>
+      <Header />
       <main>
         <Intro />
         <Stores />
@@ -19,9 +17,7 @@ export default function HomePage() {
         <About />
         <Franchise />
       </main>
-      <footer>
-        <Copyright />
-      </footer>
+      <Footer />
     </>
   );
 }

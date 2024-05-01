@@ -2,7 +2,7 @@ import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-export default function Navbar() {
+export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = () => {
@@ -22,7 +22,7 @@ export default function Navbar() {
   }, [isOpen]);
 
   return (
-    <div className="container fixed left-0 right-0 max-w-screen-md py-4">
+    <header className="container fixed left-0 right-0 max-w-screen-md py-4">
       <nav className="flex items-center justify-between rounded-full bg-primary px-6 py-3 font-special font-bold shadow-lg sm:px-8 sm:py-4">
         <Link to="/" className="text-2xl uppercase text-secondary">
           Mood
@@ -49,6 +49,6 @@ export default function Navbar() {
           </li>
         </ul>
       </nav>
-    </div>
+    </header>
   );
 }
