@@ -12,6 +12,7 @@ export default {
         secondary: "#bdc2ff",
         tertiary: "#fed9fd",
         quaternary: "#392e4f",
+        quinary: "#ede7e0",
       },
       textColor: {
         primary: "#392d50",
