@@ -3,11 +3,13 @@ import Header from "../components/Header";
 
 export default function EventPage() {
   return (
-    <>
+    <div className="container flex min-h-screen flex-col items-center">
       <Header />
-      <main className="container flex flex-col items-center pb-8 pt-28 text-center md:pb-16">
+      <main className="grow pt-28 text-center">
         <div className="flex max-w-prose flex-col gap-4 lg:gap-8">
-          <h1 className="mb-4 text-7xl font-bold uppercase">Event</h1>
+          <h1 className="mb-4 text-4xl font-bold uppercase md:text-7xl">
+            Event
+          </h1>
           <p className="lg:text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
             aperiam iure veniam eos ducimus molestiae animi voluptatibus
@@ -17,6 +19,6 @@ export default function EventPage() {
         </div>
       </main>
       <Footer />
-    </>
+    </div>
   );
 }

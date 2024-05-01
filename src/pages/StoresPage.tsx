@@ -4,18 +4,20 @@ import Card from "../components/ui/Card";
 
 export default function StoresPage() {
   return (
-    <>
+    <div className="flex min-h-screen flex-col">
       <Header />
-      <main className="container flex flex-col items-center pb-8 pt-28 text-center md:pb-16">
+      <main className="container flex grow flex-col items-center pt-28 text-center">
         <div className="flex max-w-prose flex-col gap-4 lg:gap-8">
-          <h1 className="mb-4 text-7xl font-bold uppercase">Stores</h1>
+          <h1 className="text-4xl font-bold uppercase md:text-7xl">Stores</h1>
           <p className="lg:text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
             aperiam iure veniam eos ducimus molestiae animi voluptatibus
             dignissimos amet quo voluptatem, cumque nihil laboriosam sint quia
             doloremque. Unde, molestias ipsum!
           </p>
-          <h2 className="text-5xl font-semibold uppercase">Stay tuned!</h2>
+          <h2 className="text-3xl font-semibold uppercase md:text-6xl">
+            Stay tuned!
+          </h2>
           <p className="mb-8">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
             reprehenderit facilis quos quaerat nesciunt itaque temporibus
@@ -23,7 +25,7 @@ export default function StoresPage() {
             exercitationem. Qui atque impedit accusantium.
           </p>
         </div>
-        <div className="flex flex-col gap-4 lg:grid lg:grid-cols-3 lg:gap-8">
+        <div className="flex flex-col gap-8 lg:grid lg:grid-cols-3">
           <Card
             image="/images/stores/store-paris-img.webp"
             title="Paris"
@@ -93,6 +95,6 @@ export default function StoresPage() {
         </div>
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
