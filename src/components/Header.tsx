@@ -24,7 +24,7 @@ export default function Header() {
   return (
     <header className="container fixed left-0 right-0 max-w-screen-md py-4">
       <nav className="flex items-center justify-between rounded-full bg-primary px-6 py-3 font-special font-bold shadow-lg sm:px-8 sm:py-4">
-        <Link to="/" className="text-2xl uppercase text-secondary">
+        <Link to="#" className="text-2xl uppercase text-secondary">
           Mood
         </Link>
         <button onClick={handleClick} className="z-10 sm:hidden">
