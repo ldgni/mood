@@ -37,7 +37,7 @@ export default function Section({
         />
         <div
           className={`mx-auto flex max-w-prose flex-col gap-8 text-center ${textColor ? `${textColor}` : ""}`}>
-          <h2 className="font-special text-5xl font-semibold uppercase md:text-7xl">
+          <h2 className="font-special text-5xl font-semibold uppercase md:text-6xl">
             {title}
           </h2>
           <p className="md:text-lg lg:text-xl">{text}</p>
