@@ -27,7 +27,10 @@ export default function Header() {
         <Link to="/" className="text-2xl uppercase text-secondary">
           Mood
         </Link>
-        <button onClick={handleClick} className="z-10 sm:hidden">
+        <button
+          onClick={handleClick}
+          className="z-10 sm:hidden"
+          aria-label="Menu">
           {isOpen ? <X size={32} /> : <Menu size={32} />}
         </button>
         <ul

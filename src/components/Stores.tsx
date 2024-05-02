@@ -13,7 +13,7 @@ export default function Stores() {
         tenetur recusandae fugit?"
       buttonLink="/stores"
       buttonText="Locations"
-      buttonBgColor="secondary"
+      buttonBgColor="senary"
       buttonTextColor="accent"
     />
   );

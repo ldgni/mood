@@ -13,10 +13,11 @@ export default {
         tertiary: "#fed9fd",
         quaternary: "#392e4f",
         quinary: "#ede7e0",
+        senary: "#484D70",
       },
       textColor: {
         primary: "#392d50",
-        secondary: "#bdc2ff",
+        secondary: "#7E3552",
         accent: "#e8ff54",
       },
       fontFamily: {
