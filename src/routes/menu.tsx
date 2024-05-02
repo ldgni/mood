@@ -21,7 +21,9 @@ export const Route = createFileRoute("/menu")({
           <img
             src="images/flavours/flavours-img.webp"
             alt="Different ice cream flavours"
-            className="w-full max-w-2xl rounded-2xl shadow-xl"
+            width={661}
+            height={441}
+            className="rounded-2xl shadow-xl"
           />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
