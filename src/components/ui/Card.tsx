@@ -27,7 +27,7 @@ export default function Card({
         <p>{email}</p>
         <div className="mt-2 flex gap-4">
           {socials.map((social, index) => (
-            <a key={index} href={social.url}>
+            <a key={index} href={social.url} aria-label={social.name}>
               {social.name === "facebook" && <Facebook size={32} />}
               {social.name === "instagram" && <Instagram size={32} />}
             </a>
