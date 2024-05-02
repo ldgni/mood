@@ -1,3 +1,5 @@
+import { createFileRoute } from "@tanstack/react-router";
+
 import About from "../components/About";
 import Event from "../components/Event";
 import Footer from "../components/Footer";
@@ -6,8 +8,8 @@ import Header from "../components/Header";
 import Intro from "../components/Intro";
 import Stores from "../components/Stores";
 
-export default function HomePage() {
-  return (
+export const Route = createFileRoute("/")({
+  component: () => (
     <>
       <Header />
       <main>
@@ -19,5 +21,5 @@ export default function HomePage() {
       </main>
       <Footer />
     </>
-  );
-}
+  ),
+});

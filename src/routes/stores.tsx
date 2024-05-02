@@ -1,9 +1,11 @@
+import { createFileRoute } from "@tanstack/react-router";
+
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Card from "../components/ui/Card";
 
-export default function StoresPage() {
-  return (
+export const Route = createFileRoute("/stores")({
+  component: () => (
     <div className="flex min-h-screen flex-col">
       <Header />
       <main className="container flex grow flex-col items-center pt-28 text-center">
@@ -96,5 +98,5 @@ export default function StoresPage() {
       </main>
       <Footer />
     </div>
-  );
-}
+  ),
+});
