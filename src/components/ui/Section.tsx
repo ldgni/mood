@@ -29,7 +29,7 @@ export default function Section({
 }: SectionProps) {
   return (
     <section className={`${bgColor}`}>
-      <div className="container flex flex-col gap-8 py-8 md:px-16 md:py-16 lg:grid lg:min-h-screen lg:grid-cols-2 lg:place-items-center lg:gap-16">
+      <div className="container flex flex-col gap-8 py-8 md:px-16 md:py-16 lg:grid lg:grid-cols-2 lg:place-items-center lg:gap-16">
         <img
           src={imageSrc}
           alt={imageAlt}
@@ -43,7 +43,7 @@ export default function Section({
           <p className="md:text-lg lg:text-xl">{text}</p>
           <Link
             to={buttonLink}
-            className={`bg-${buttonBgColor} text-${buttonTextColor} mx-auto max-w-96 rounded-full px-6 py-4 font-special text-2xl font-semibold uppercase md:px-8 md:py-6 md:text-3xl`}>
+            className={`bg-${buttonBgColor} text-${buttonTextColor} mx-auto max-w-96 rounded-full px-6 py-4 font-special text-2xl font-semibold uppercase shadow-lg transition duration-300 hover:scale-105 hover:opacity-80 md:px-8 md:py-6 md:text-3xl`}>
             {buttonText}
           </Link>
         </div>

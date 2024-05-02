@@ -24,7 +24,7 @@ export default function Intro() {
         </p>
         <Link
           to="/menu"
-          className="mx-auto max-w-72 rounded-full bg-senary px-6 py-4 font-special text-2xl font-semibold uppercase text-accent md:px-8 md:py-6 md:text-3xl">
+          className="mx-auto max-w-72 rounded-full bg-senary px-6 py-4 font-special text-2xl font-semibold uppercase text-accent transition duration-300 hover:scale-105 hover:opacity-80 md:px-8 md:py-6 md:text-3xl">
           Our flavours
         </Link>
       </div>
