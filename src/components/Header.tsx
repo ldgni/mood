@@ -31,21 +31,41 @@ export default function Header() {
           {isOpen ? <X size={32} /> : <Menu size={32} />}
         </button>
         <ul
-          className={`fixed inset-0 flex flex-col items-center justify-center gap-8 bg-primary text-3xl uppercase transition duration-500 ease-in-out sm:static sm:translate-x-0 sm:flex-row sm:gap-4 sm:text-base sm:opacity-100 md:gap-6 lg:gap-8 lg:text-lg ${isOpen ? "translate-x-0 text-secondary opacity-100" : "translate-x-full opacity-0"}`}>
+          className={`fixed inset-0 flex flex-col items-center justify-center gap-8 bg-primary text-3xl uppercase transition duration-500 ease-in-out sm:static sm:translate-x-0 sm:flex-row sm:gap-4 sm:text-lg sm:opacity-100 md:gap-6 lg:gap-8 ${isOpen ? "translate-x-0 text-secondary opacity-100" : "translate-x-full opacity-0"}`}>
           <li>
-            <Link to="/menu">Menu</Link>
+            <Link
+              to="/menu"
+              className="transition-colors duration-300 sm:hover:text-secondary">
+              Menu
+            </Link>
           </li>
           <li>
-            <Link to="/stores">Stores</Link>
+            <Link
+              to="/stores"
+              className="transition-colors duration-300 sm:hover:text-secondary">
+              Stores
+            </Link>
           </li>
           <li>
-            <Link to="/event">Event</Link>
+            <Link
+              to="/event"
+              className="transition-colors duration-300 sm:hover:text-secondary">
+              Event
+            </Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link
+              to="/about"
+              className="transition-colors duration-300 sm:hover:text-secondary">
+              About
+            </Link>
           </li>
           <li>
-            <Link to="/franchise">Franchise</Link>
+            <Link
+              to="/franchise"
+              className="transition-colors duration-300 sm:hover:text-secondary">
+              Franchise
+            </Link>
           </li>
         </ul>
       </nav>
