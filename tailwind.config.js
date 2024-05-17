@@ -17,7 +17,7 @@ export default {
       },
       textColor: {
         primary: "#392d50",
-        secondary: "#7E3552",
+        secondary: "#d4a7d2",
         accent: "#e8ff54",
       },
       fontFamily: {
