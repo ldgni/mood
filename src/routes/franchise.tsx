@@ -9,14 +9,14 @@ export const Route = createFileRoute("/franchise")({
       <Header />
       <main className="grow pt-28 text-center">
         <div className="flex max-w-prose flex-col gap-4 lg:gap-8">
-          <h1 className="mb-4 text-4xl font-bold uppercase md:text-7xl">
+          <h1 className="text-4xl font-bold uppercase md:text-7xl">
             Franchise
           </h1>
           <p className="lg:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-            aperiam iure veniam eos ducimus molestiae animi voluptatibus
-            dignissimos amet quo voluptatem, cumque nihil laboriosam sint quia
-            doloremque. Unde, molestias ipsum!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
+            veniam, harum deserunt repellat nesciunt natus sequi placeat
+            corrupti ipsum itaque. Adipisci ipsam quam inventore, ducimus
+            obcaecati quidem optio commodi labore.
           </p>
         </div>
       </main>

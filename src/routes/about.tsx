@@ -9,14 +9,12 @@ export const Route = createFileRoute("/about")({
       <Header />
       <main className="grow pt-28 text-center">
         <div className="flex max-w-prose flex-col gap-4 lg:gap-8">
-          <h1 className="mb-4 text-4xl font-bold uppercase md:text-7xl">
-            About
-          </h1>
+          <h1 className="text-4xl font-bold uppercase md:text-7xl">About</h1>
           <p className="lg:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-            aperiam iure veniam eos ducimus molestiae animi voluptatibus
-            dignissimos amet quo voluptatem, cumque nihil laboriosam sint quia
-            doloremque. Unde, molestias ipsum!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et
+            repudiandae possimus quasi omnis placeat cum modi explicabo quaerat
+            nesciunt illo voluptatem ratione blanditiis enim, perferendis
+            mollitia necessitatibus at. Nihil, modi.
           </p>
         </div>
       </main>

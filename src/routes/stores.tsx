@@ -12,19 +12,19 @@ export const Route = createFileRoute("/stores")({
         <div className="flex max-w-prose flex-col gap-4 lg:gap-8">
           <h1 className="text-4xl font-bold uppercase md:text-7xl">Stores</h1>
           <p className="lg:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-            aperiam iure veniam eos ducimus molestiae animi voluptatibus
-            dignissimos amet quo voluptatem, cumque nihil laboriosam sint quia
-            doloremque. Unde, molestias ipsum!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint fugit
+            excepturi iste! Magnam corporis porro saepe sequi at autem dolorem,
+            perspiciatis itaque quam eum cum modi. Amet itaque ratione
+            veritatis?
           </p>
           <h2 className="text-3xl font-semibold uppercase md:text-6xl">
             Stay tuned!
           </h2>
           <p className="mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
-            reprehenderit facilis quos quaerat nesciunt itaque temporibus
-            adipisci delectus corporis illum deleniti nulla, qui aliquid, aut
-            exercitationem. Qui atque impedit accusantium.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Recusandae, beatae. Recusandae ad eaque quaerat sequi dicta iure sit
+            sunt deleniti, labore, neque consequuntur molestiae tenetur nam
+            tempore quam natus accusamus.
           </p>
         </div>
         <div className="flex flex-col gap-8 lg:grid lg:grid-cols-3">

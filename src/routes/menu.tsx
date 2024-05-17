@@ -9,14 +9,12 @@ export const Route = createFileRoute("/menu")({
       <Header />
       <main className="grow pt-28 text-center">
         <div className="flex max-w-prose flex-col gap-4 lg:gap-8">
-          <h1 className="mb-4 text-4xl font-bold uppercase md:text-7xl">
-            Menu
-          </h1>
+          <h1 className="text-4xl font-bold uppercase md:text-7xl">Menu</h1>
           <p className="lg:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-            aperiam iure veniam eos ducimus molestiae animi voluptatibus
-            dignissimos amet quo voluptatem, cumque nihil laboriosam sint quia
-            doloremque. Unde, molestias ipsum!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo
+            corrupti, ratione, atque ipsum sunt maxime in magnam fugit
+            reprehenderit sequi deleniti fugiat assumenda culpa quaerat debitis
+            nihil molestias perferendis distinctio.
           </p>
           <img
             src="images/flavours/flavours-img.webp"
@@ -26,10 +24,10 @@ export const Route = createFileRoute("/menu")({
             className="rounded-2xl shadow-xl"
           />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Exercitationem ipsam tempore ducimus dolorum inventore temporibus
-            mollitia molestiae laborum repellat hic facere reprehenderit natus,
-            possimus unde ipsum ipsa eius. Ipsam, saepe?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus a
+            incidunt eaque iusto, mollitia aliquam necessitatibus porro sequi
+            saepe vero? Aspernatur tempora nihil illo doloribus iusto maxime
+            architecto inventore perferendis.
           </p>
         </div>
       </main>
