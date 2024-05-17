@@ -18,6 +18,15 @@ export const Route = createFileRoute("/franchise")({
             corrupti ipsum itaque. Adipisci ipsam quam inventore, ducimus
             obcaecati quidem optio commodi labore.
           </p>
+          <h2 className="text-2xl font-semibold uppercase md:text-5xl">
+            Why us?
+          </h2>
+          <p className="lg:text-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            doloremque, quidem qui architecto mollitia nemo sint ex magnam
+            dolore iusto magni! Sint sequi maiores id quibusdam, quisquam soluta
+            molestiae veniam.
+          </p>
         </div>
       </main>
       <Footer />

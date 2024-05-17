@@ -17,10 +17,10 @@ export const Route = createFileRoute("/stores")({
             perspiciatis itaque quam eum cum modi. Amet itaque ratione
             veritatis?
           </p>
-          <h2 className="text-3xl font-semibold uppercase md:text-6xl">
+          <h2 className="text-2xl font-semibold uppercase md:text-5xl">
             Stay tuned!
           </h2>
-          <p className="mb-8">
+          <p className="mb-8 lg:text-lg">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Recusandae, beatae. Recusandae ad eaque quaerat sequi dicta iure sit
             sunt deleniti, labore, neque consequuntur molestiae tenetur nam

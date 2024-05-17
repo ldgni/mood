@@ -23,7 +23,7 @@ export const Route = createFileRoute("/menu")({
             height={441}
             className="rounded-2xl shadow-xl"
           />
-          <p>
+          <p className="lg:text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus a
             incidunt eaque iusto, mollitia aliquam necessitatibus porro sequi
             saepe vero? Aspernatur tempora nihil illo doloribus iusto maxime
