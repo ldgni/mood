@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Menu, X } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,18 +8,6 @@ export default function Header() {
   const handleClick = () => {
     setIsOpen(!isOpen);
   };
-
-  useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "unset";
-    }
-
-    return () => {
-      document.body.style.overflow = "unset";
-    };
-  }, [isOpen]);
 
   return (
     <header className="container fixed left-0 right-0 max-w-screen-md py-4">
@@ -34,39 +22,39 @@ export default function Header() {
           {isOpen ? <X size={32} /> : <Menu size={32} />}
         </button>
         <ul
-          className={`fixed inset-0 flex flex-col items-center justify-center gap-8 bg-primary text-3xl uppercase transition duration-500 ease-in-out sm:static sm:translate-x-0 sm:flex-row sm:gap-4 sm:text-lg sm:opacity-100 md:gap-6 lg:gap-8 ${isOpen ? "translate-x-0 text-secondary opacity-100" : "translate-x-full opacity-0"}`}>
+          className={`fixed inset-0 flex flex-col items-center justify-center gap-8 bg-primary text-3xl uppercase transition duration-500 ease-in-out sm:static sm:translate-x-0 sm:flex-row sm:gap-4 sm:text-lg sm:opacity-100 md:gap-6 lg:gap-8 ${isOpen ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"}`}>
           <li>
             <Link
               to="/menu"
-              className="transition-colors duration-300 sm:hover:text-secondary">
+              className="transition-colors duration-300 hover:text-secondary">
               Menu
             </Link>
           </li>
           <li>
             <Link
               to="/stores"
-              className="transition-colors duration-300 sm:hover:text-secondary">
+              className="transition-colors duration-300 hover:text-secondary">
               Stores
             </Link>
           </li>
           <li>
             <Link
               to="/event"
-              className="transition-colors duration-300 sm:hover:text-secondary">
+              className="transition-colors duration-300 hover:text-secondary">
               Event
             </Link>
           </li>
           <li>
             <Link
               to="/about"
-              className="transition-colors duration-300 sm:hover:text-secondary">
+              className="transition-colors duration-300 hover:text-secondary">
               About
             </Link>
           </li>
           <li>
             <Link
               to="/franchise"
-              className="transition-colors duration-300 sm:hover:text-secondary">
+              className="transition-colors duration-300 hover:text-secondary">
               Franchise
             </Link>
           </li>
