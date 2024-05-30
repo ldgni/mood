@@ -41,7 +41,7 @@ const EventComponent = () => {
               Our ordering system is still under construction.
             </p>
             <button
-              className="rounded-full bg-quinary px-4 py-2 text-sm text-primary hover:bg-opacity-50 md:text-base"
+              className="rounded-full bg-quinary px-4 py-2 text-sm text-primary transition duration-300 hover:bg-opacity-50 md:text-base"
               onClick={() => setShowModal(false)}>
               Close
             </button>
