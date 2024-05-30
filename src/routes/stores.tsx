@@ -10,14 +10,16 @@ export const Route = createFileRoute("/stores")({
       <Header />
       <main className="container flex grow flex-col items-center pt-28 text-center">
         <div className="flex max-w-prose flex-col gap-4 lg:gap-8">
-          <h1 className="text-4xl font-bold uppercase md:text-7xl">Stores</h1>
+          <h1 className="font-special text-4xl font-bold uppercase md:text-7xl">
+            Stores
+          </h1>
           <p className="lg:text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint fugit
             excepturi iste! Magnam corporis porro saepe sequi at autem dolorem,
             perspiciatis itaque quam eum cum modi. Amet itaque ratione
             veritatis?
           </p>
-          <h2 className="text-2xl font-semibold uppercase md:text-5xl">
+          <h2 className="font-special text-2xl font-semibold uppercase md:text-5xl">
             Stay tuned!
           </h2>
           <p className="mb-8 lg:text-lg">

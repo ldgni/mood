@@ -9,7 +9,7 @@ export const Route = createFileRoute("/franchise")({
       <Header />
       <main className="grow pt-28 text-center">
         <div className="flex max-w-prose flex-col gap-4 lg:gap-8">
-          <h1 className="text-4xl font-bold uppercase md:text-7xl">
+          <h1 className="font-special text-4xl font-bold uppercase md:text-7xl">
             Franchise
           </h1>
           <p className="lg:text-lg">
@@ -18,7 +18,7 @@ export const Route = createFileRoute("/franchise")({
             corrupti ipsum itaque. Adipisci ipsam quam inventore, ducimus
             obcaecati quidem optio commodi labore.
           </p>
-          <h2 className="text-2xl font-semibold uppercase md:text-5xl">
+          <h2 className="font-special text-2xl font-semibold uppercase md:text-5xl">
             Why us?
           </h2>
           <p className="lg:text-lg">

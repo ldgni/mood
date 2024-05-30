@@ -21,7 +21,9 @@ export default function Card({
     <div className="max-w-lg overflow-hidden rounded-3xl bg-quinary shadow">
       <img src={image} alt={title} />
       <div className="flex flex-col items-center gap-2 p-4">
-        <h2 className="text-4xl font-semibold">{title}</h2>
+        <h2 className="font-special text-4xl font-semibold uppercase">
+          {title}
+        </h2>
         <p>{address}</p>
         <p>{openingHours}</p>
         <p>{email}</p>

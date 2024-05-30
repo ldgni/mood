@@ -9,7 +9,9 @@ export const Route = createFileRoute("/menu")({
       <Header />
       <main className="grow pt-28 text-center">
         <div className="flex max-w-prose flex-col gap-4 lg:gap-8">
-          <h1 className="text-4xl font-bold uppercase md:text-7xl">Menu</h1>
+          <h1 className="font-special text-4xl font-bold uppercase md:text-7xl">
+            Menu
+          </h1>
           <p className="lg:text-lg">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo
             corrupti, ratione, atque ipsum sunt maxime in magnam fugit
