@@ -5,6 +5,7 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import About from "./routes/about";
+import Error from "./routes/error";
 import Event from "./routes/event";
 import Franchise from "./routes/franchise";
 import Home from "./routes/home";
@@ -16,7 +17,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
-    errorElement: <p>404 Not Found</p>,
+    errorElement: <Error />,
   },
   {
     element: <Root />,
