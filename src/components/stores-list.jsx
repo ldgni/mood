@@ -75,7 +75,7 @@ export default function StoresList() {
       {stores.map((store) => (
         <li
           key={store.id}
-          className="overflow-hidden rounded-xl border bg-amber-100 shadow">
+          className="overflow-hidden rounded-xl border bg-orange-50 shadow">
           <img
             src={store.imageSrc}
             alt={store.altText}
