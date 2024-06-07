@@ -1,6 +1,6 @@
 # Mood
 
-Brochure website of an ice-cream shop
+> Brochure website of an ice-cream shop
 
 ## Running Locally
 
