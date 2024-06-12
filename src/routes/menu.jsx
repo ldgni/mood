@@ -2,9 +2,11 @@ import Marquee from "react-fast-marquee";
 
 export default function Menu() {
   return (
-    <div className="flex flex-col items-center gap-6 text-center sm:text-lg">
-      <h1 className="font-heading text-5xl font-bold uppercase">Menu</h1>
-      <p>
+    <div className="flex flex-col items-center gap-6 text-center sm:text-lg md:text-xl">
+      <h1 className="font-heading text-5xl font-bold uppercase sm:text-6xl md:text-7xl">
+        Menu
+      </h1>
+      <p className="max-w-2xl">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo corrupti,
         ratione, atque ipsum sunt maxime in magnam fugit reprehenderit sequi
         deleniti fugiat assumenda culpa quaerat debitis nihil molestias
@@ -26,7 +28,7 @@ export default function Menu() {
           className="mr-8 rounded shadow"
         />
       </Marquee>
-      <p>
+      <p className="max-w-2xl">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus a
         incidunt eaque iusto, mollitia aliquam necessitatibus porro sequi saepe
         vero? Aspernatur tempora nihil illo doloribus iusto maxime architecto

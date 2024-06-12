@@ -19,11 +19,11 @@ export default function Home() {
             <source src="videos/ice-cream.webm" type="video/webm" />
             <source src="videos/ice-cream.mp4" type="video/mp4" />
           </video>
-          <div className="mx-auto flex max-w-screen-sm flex-col items-center gap-6 px-4 py-8 text-center sm:text-lg md:gap-8 lg:min-h-screen lg:justify-center lg:text-xl">
-            <h1 className="font-heading text-6xl font-bold uppercase sm:text-7xl lg:text-8xl">
+          <div className="mx-auto flex max-w-screen-sm flex-col items-center gap-6 px-4 py-8 text-center sm:text-lg md:gap-8 md:text-xl lg:min-h-screen lg:justify-center">
+            <h1 className="font-heading text-6xl font-bold uppercase sm:text-7xl md:text-8xl">
               Next Level Ice Creams
             </h1>
-            <p>
+            <p className="max-w-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo
               totam obcaecati aliquam placeat voluptas incidunt, sunt voluptatem
               impedit vero culpa ipsa aut cupiditate natus. Sunt odio assumenda
@@ -42,11 +42,11 @@ export default function Home() {
                 alt=""
                 className="object-cover lg:w-1/2"
               />
-              <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center md:gap-8">
-                <h2 className="font-heading text-5xl font-bold uppercase">
+              <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center sm:text-lg md:gap-8 md:text-xl">
+                <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl md:text-8xl">
                   Stores
                 </h2>
-                <p className="max-w-prose sm:text-lg">
+                <p className="max-w-lg">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Cumque, aliquam aut sequi nobis consectetur voluptates
                   possimus nesciunt voluptatum esse tenetur harum! Sed totam,
@@ -65,11 +65,11 @@ export default function Home() {
                 alt=""
                 className="object-cover lg:w-1/2"
               />
-              <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center md:gap-8">
-                <h2 className="font-heading text-5xl font-bold uppercase">
+              <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center sm:text-lg md:gap-8 md:text-xl">
+                <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl md:text-8xl">
                   Event
                 </h2>
-                <p className="max-w-prose sm:text-lg">
+                <p className="max-w-lg">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Recusandae ipsam neque aperiam fugiat! Cupiditate, dolore odio
                   sapiente asperiores laudantium alias ut ratione ipsam, iste
@@ -88,11 +88,11 @@ export default function Home() {
                 alt=""
                 className="object-cover lg:w-1/2"
               />
-              <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center text-neutral-100 md:gap-8">
-                <h2 className="font-heading text-5xl font-bold uppercase">
+              <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center text-neutral-100 sm:text-lg md:gap-8 md:text-xl">
+                <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl md:text-8xl">
                   About
                 </h2>
-                <p className="max-w-prose sm:text-lg">
+                <p className="max-w-lg">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
                   vitae impedit soluta tenetur saepe, voluptas magnam voluptate
                   distinctio reprehenderit, atque, harum modi fugiat porro ad
@@ -111,11 +111,11 @@ export default function Home() {
                 alt=""
                 className="object-cover lg:w-1/2"
               />
-              <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center md:gap-8">
-                <h2 className="font-heading text-5xl font-bold uppercase">
+              <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center sm:text-lg md:gap-8 md:text-xl">
+                <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl md:text-8xl">
                   Franchise
                 </h2>
-                <p className="max-w-prose sm:text-lg">
+                <p className="max-w-lg">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Repudiandae doloribus, voluptatem quibusdam similique
                   repellendus dolor a veniam ad consectetur temporibus minima
