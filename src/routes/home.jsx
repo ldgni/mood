@@ -35,7 +35,7 @@ export default function Home() {
           </div>
         </div>
         <div className="grid lg:grid-rows-4">
-          <section className="bg-fuchsia-200">
+          <section className="bg-fuchsia-200/85">
             <div className="flex flex-col lg:h-full lg:flex-row">
               <img
                 src="images/store-img.webp"
@@ -58,7 +58,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <section className="bg-indigo-300">
+          <section className="bg-indigo-300/85">
             <div className="flex flex-col lg:h-full lg:flex-row-reverse">
               <img
                 src="images/event-img.webp"
@@ -81,7 +81,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <section className="bg-sky-950">
+          <section className="bg-sky-950/85">
             <div className="flex flex-col lg:h-full lg:flex-row">
               <img
                 src="images/about-img.webp"
@@ -104,7 +104,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <section className="bg-violet-300">
+          <section className="bg-violet-300/85">
             <div className="flex flex-col lg:h-full lg:flex-row-reverse">
               <img
                 src="images/franchise-img.webp"
