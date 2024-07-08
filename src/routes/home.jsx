@@ -40,7 +40,7 @@ export default function Home() {
               <img
                 src="images/store-img.webp"
                 alt=""
-                className="object-cover lg:w-1/2"
+                className="h-[50vh] object-cover lg:h-full lg:w-1/2"
               />
               <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center sm:p-12 sm:text-lg md:gap-8 md:text-xl">
                 <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl">
@@ -63,7 +63,7 @@ export default function Home() {
               <img
                 src="images/event-img.webp"
                 alt=""
-                className="object-cover lg:w-1/2"
+                className="h-[50vh] object-cover lg:h-full lg:w-1/2"
               />
               <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center sm:p-12 sm:text-lg md:gap-8 md:text-xl">
                 <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl">
@@ -86,7 +86,7 @@ export default function Home() {
               <img
                 src="images/about-img.webp"
                 alt=""
-                className="object-cover lg:w-1/2"
+                className="h-[50vh] object-cover lg:h-full lg:w-1/2"
               />
               <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center text-neutral-100 sm:p-12 sm:text-lg md:gap-8 md:text-xl">
                 <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl">
@@ -109,7 +109,7 @@ export default function Home() {
               <img
                 src="images/franchise-img.webp"
                 alt=""
-                className="object-cover lg:w-1/2"
+                className="h-[50vh] object-cover lg:h-full lg:w-1/2"
               />
               <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center sm:p-12 sm:text-lg md:gap-8 md:text-xl">
                 <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl">
