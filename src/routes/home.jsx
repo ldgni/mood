@@ -43,7 +43,7 @@ export default function Home() {
                 className="object-cover lg:w-1/2"
               />
               <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center sm:p-12 sm:text-lg md:gap-8 md:text-xl">
-                <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl md:text-8xl">
+                <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl">
                   Stores
                 </h2>
                 <p className="max-w-lg">
@@ -66,7 +66,7 @@ export default function Home() {
                 className="object-cover lg:w-1/2"
               />
               <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center sm:p-12 sm:text-lg md:gap-8 md:text-xl">
-                <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl md:text-8xl">
+                <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl">
                   Event
                 </h2>
                 <p className="max-w-lg">
@@ -89,7 +89,7 @@ export default function Home() {
                 className="object-cover lg:w-1/2"
               />
               <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center text-neutral-100 sm:p-12 sm:text-lg md:gap-8 md:text-xl">
-                <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl md:text-8xl">
+                <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl">
                   About
                 </h2>
                 <p className="max-w-lg">
@@ -112,7 +112,7 @@ export default function Home() {
                 className="object-cover lg:w-1/2"
               />
               <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center sm:p-12 sm:text-lg md:gap-8 md:text-xl">
-                <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl md:text-8xl">
+                <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl">
                   Franchise
                 </h2>
                 <p className="max-w-lg">
