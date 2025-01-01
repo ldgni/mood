@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import Modal from "../components/ui/modal";
+import Modal from "@/components/modal";
 
 export default function Event() {
   const [showModal, setShowModal] = useState(false);

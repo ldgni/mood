@@ -1,4 +1,16 @@
-export default function Modal({ showModal, setShowModal, title, message }) {
+interface ModalProps {
+  showModal: boolean;
+  setShowModal: (show: boolean) => void;
+  title: string;
+  message: string;
+}
+
+export default function Modal({
+  showModal,
+  setShowModal,
+  title,
+  message,
+}: ModalProps) {
   if (!showModal) return null;
 
   return (

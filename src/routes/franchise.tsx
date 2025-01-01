@@ -1,12 +1,12 @@
 import { useRef, useState } from "react";
 
-import Modal from "../components/ui/modal";
+import Modal from "@/components/modal";
 
 export default function Franchise() {
   const [showModal, setShowModal] = useState(false);
-  const formRef = useRef();
+  const formRef = useRef<HTMLFormElement>(null);
 
-  const handleSubmit = (event) => {
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (formRef.current) {
       formRef.current.reset();

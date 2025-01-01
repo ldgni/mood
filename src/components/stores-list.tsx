@@ -1,9 +1,16 @@
 import { Facebook, Instagram } from "lucide-react";
 
+import StoreBerlin from "@/assets/images/stores/store-berlin-img.webp";
+import StoreBrussels from "@/assets/images/stores/store-brussels-img.webp";
+import StoreLosAngeles from "@/assets/images/stores/store-la-img.webp";
+import StoreLondon from "@/assets/images/stores/store-london-img.webp";
+import StoreLuxembourg from "@/assets/images/stores/store-luxembourg-img.webp";
+import StoreParis from "@/assets/images/stores/store-paris-img.webp";
+
 const stores = [
   {
     id: 1,
-    imageSrc: "images/stores/store-berlin-img.webp",
+    imageSrc: StoreBerlin,
     altText: "Berlin",
     title: "Berlin",
     address: "123 Berlin Street",
@@ -14,7 +21,7 @@ const stores = [
   },
   {
     id: 2,
-    imageSrc: "images/stores/store-paris-img.webp",
+    imageSrc: StoreParis,
     altText: "Paris",
     title: "Paris",
     address: "123 Paris Street",
@@ -25,7 +32,7 @@ const stores = [
   },
   {
     id: 3,
-    imageSrc: "images/stores/store-london-img.webp",
+    imageSrc: StoreLondon,
     altText: "London",
     title: "London",
     address: "123 London Street",
@@ -36,7 +43,7 @@ const stores = [
   },
   {
     id: 4,
-    imageSrc: "images/stores/store-luxembourg-img.webp",
+    imageSrc: StoreLuxembourg,
     altText: "Luxembourg",
     title: "Luxembourg",
     address: "123 Luxembourg Street",
@@ -47,7 +54,7 @@ const stores = [
   },
   {
     id: 5,
-    imageSrc: "images/stores/store-la-img.webp",
+    imageSrc: StoreLosAngeles,
     altText: "Los Angeles",
     title: "Los Angeles",
     address: "123 Los Angeles Street",
@@ -58,7 +65,7 @@ const stores = [
   },
   {
     id: 6,
-    imageSrc: "images/stores/store-brussels-img.webp",
+    imageSrc: StoreBrussels,
     altText: "Brussels",
     title: "Brussels",
     address: "123 Brussels Street",

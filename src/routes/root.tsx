@@ -1,8 +1,8 @@
-import { Outlet, ScrollRestoration } from "react-router-dom";
+import { Outlet, ScrollRestoration } from "react-router";
 
-import Container from "../components/container";
-import Footer from "../components/footer";
-import Header from "../components/header";
+import Container from "@/components/container";
+import Footer from "@/components/footer";
+import Header from "@/components/header";
 
 export default function Root() {
   return (

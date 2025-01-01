@@ -1,4 +1,4 @@
-import StoresList from "../components/stores-list";
+import StoresList from "@/components/stores-list";
 
 export default function Stores() {
   return (

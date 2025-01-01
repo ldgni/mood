@@ -2,20 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  @font-face {
-    font-family: "Satoshi";
-    font-style: normal;
-    font-weight: 300 900;
-    font-display: swap;
-    src: url(/fonts/Satoshi-Variable.woff2) format("woff2");
-  }
+@font-face {
+  font-family: "Satoshi";
+  src: url("../assets/fonts/Satoshi-Variable.woff2") format("woff2");
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: "Space Grotesk";
-    font-style: normal;
-    font-weight: 300 700;
-    font-display: swap;
-    src: url(/fonts/SpaceGrotesk-Variable.woff2) format("woff2");
-  }
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../assets/fonts/SpaceGrotesk-Variable.woff2") format("woff2");
+  font-display: swap;
 }

@@ -1,8 +1,14 @@
-import { ScrollRestoration } from "react-router-dom";
+import { ScrollRestoration } from "react-router";
 
-import Footer from "../components/footer";
-import Header from "../components/header";
-import LinkButton from "../components/ui/link-button";
+import AboutImage from "@/assets/images/about-img.webp";
+import EventImage from "@/assets/images/event-img.webp";
+import FranchiseImage from "@/assets/images/franchise-img.webp";
+import StoreImage from "@/assets/images/store-img.webp";
+import IceCreamMp4 from "@/assets/videos/ice-cream.mp4";
+import IceCreamWebm from "@/assets/videos/ice-cream.webm";
+import Footer from "@/components/footer";
+import Header from "@/components/header";
+import LinkButton from "@/components/link-button";
 
 export default function Home() {
   return (
@@ -16,8 +22,8 @@ export default function Home() {
             loop
             muted
             playsInline>
-            <source src="videos/ice-cream.webm" type="video/webm" />
-            <source src="videos/ice-cream.mp4" type="video/mp4" />
+            <source src={IceCreamWebm} type="video/webm" />
+            <source src={IceCreamMp4} type="video/mp4" />
           </video>
           <div className="mx-auto flex max-w-screen-sm flex-col items-center gap-6 px-4 py-8 text-center sm:text-lg md:gap-8 md:text-xl lg:min-h-screen lg:justify-center">
             <h1 className="font-heading text-6xl font-bold uppercase sm:text-7xl md:text-8xl">
@@ -38,8 +44,8 @@ export default function Home() {
           <section className="bg-fuchsia-200/85">
             <div className="flex flex-col lg:h-full lg:flex-row">
               <img
-                src="images/store-img.webp"
-                alt=""
+                src={StoreImage}
+                alt="Front of an ice cream shop"
                 className="h-[50vh] object-cover lg:h-full lg:w-1/2"
               />
               <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center sm:p-12 sm:text-lg md:gap-8 md:text-xl">
@@ -61,8 +67,8 @@ export default function Home() {
           <section className="bg-indigo-300/85">
             <div className="flex flex-col lg:h-full lg:flex-row-reverse">
               <img
-                src="images/event-img.webp"
-                alt=""
+                src={EventImage}
+                alt="Shiny lights at an event"
                 className="h-[50vh] object-cover lg:h-full lg:w-1/2"
               />
               <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center sm:p-12 sm:text-lg md:gap-8 md:text-xl">
@@ -84,8 +90,8 @@ export default function Home() {
           <section className="bg-sky-950/85">
             <div className="flex flex-col lg:h-full lg:flex-row">
               <img
-                src="images/about-img.webp"
-                alt=""
+                src={AboutImage}
+                alt="People drinking coffee"
                 className="h-[50vh] object-cover lg:h-full lg:w-1/2"
               />
               <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center text-neutral-100 sm:p-12 sm:text-lg md:gap-8 md:text-xl">
@@ -107,8 +113,8 @@ export default function Home() {
           <section className="bg-violet-300/85">
             <div className="flex flex-col lg:h-full lg:flex-row-reverse">
               <img
-                src="images/franchise-img.webp"
-                alt=""
+                src={FranchiseImage}
+                alt="Workers inside a store"
                 className="h-[50vh] object-cover lg:h-full lg:w-1/2"
               />
               <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center sm:p-12 sm:text-lg md:gap-8 md:text-xl">

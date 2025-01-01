@@ -1,5 +1,8 @@
 import Marquee from "react-fast-marquee";
 
+import FlavourImage1 from "@/assets/images/flavours/flavours-img-1.webp";
+import FlavourImage2 from "@/assets/images/flavours/flavours-img-2.webp";
+
 export default function Menu() {
   return (
     <div className="flex flex-col items-center gap-6 text-center sm:text-lg md:text-xl">
@@ -14,14 +17,14 @@ export default function Menu() {
       </p>
       <Marquee>
         <img
-          src="/images/flavours/flavours-img-1.webp"
+          src={FlavourImage1}
           alt="Ice cream flavours"
           width={500}
           height={333}
           className="mr-8 rounded shadow"
         />
         <img
-          src="/images/flavours/flavours-img-2.webp"
+          src={FlavourImage2}
           alt="Ice cream flavours"
           width={500}
           height={333}
