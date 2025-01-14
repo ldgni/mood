@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 
 import Modal from "@/components/modal";
 
-export default function Franchise() {
+export default function FranchiseRoute() {
   const [showModal, setShowModal] = useState(false);
   const formRef = useRef<HTMLFormElement>(null);
 

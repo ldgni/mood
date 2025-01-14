@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 
-export default function NotFound() {
+export default function NotFoundRoute() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center gap-4 p-4 text-center">
       <h1>Sorry, the page you are looking for does not exist.</h1>

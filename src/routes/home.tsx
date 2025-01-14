@@ -10,7 +10,7 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 import LinkButton from "@/components/link-button";
 
-export default function Home() {
+export default function HomeRoute() {
   return (
     <div className="flex min-h-screen flex-col">
       <Header />
