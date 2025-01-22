@@ -1,16 +1,16 @@
 import { Facebook, Instagram } from "lucide-react";
 
-import StoreBerlin from "@/assets/images/stores/store-berlin-img.webp";
-import StoreBrussels from "@/assets/images/stores/store-brussels-img.webp";
-import StoreLosAngeles from "@/assets/images/stores/store-la-img.webp";
-import StoreLondon from "@/assets/images/stores/store-london-img.webp";
-import StoreLuxembourg from "@/assets/images/stores/store-luxembourg-img.webp";
-import StoreParis from "@/assets/images/stores/store-paris-img.webp";
+import berlin from "@/assets/images/stores/berlin.webp";
+import brussels from "@/assets/images/stores/brussels.webp";
+import london from "@/assets/images/stores/london.webp";
+import losAngeles from "@/assets/images/stores/los-angeles.webp";
+import luxembourg from "@/assets/images/stores/luxembourg.webp";
+import paris from "@/assets/images/stores/paris.webp";
 
 const stores = [
   {
     id: 1,
-    imageSrc: StoreBerlin,
+    imageSrc: berlin,
     altText: "Berlin",
     title: "Berlin",
     address: "123 Berlin Street",
@@ -21,7 +21,7 @@ const stores = [
   },
   {
     id: 2,
-    imageSrc: StoreParis,
+    imageSrc: paris,
     altText: "Paris",
     title: "Paris",
     address: "123 Paris Street",
@@ -32,7 +32,7 @@ const stores = [
   },
   {
     id: 3,
-    imageSrc: StoreLondon,
+    imageSrc: london,
     altText: "London",
     title: "London",
     address: "123 London Street",
@@ -43,7 +43,7 @@ const stores = [
   },
   {
     id: 4,
-    imageSrc: StoreLuxembourg,
+    imageSrc: luxembourg,
     altText: "Luxembourg",
     title: "Luxembourg",
     address: "123 Luxembourg Street",
@@ -54,7 +54,7 @@ const stores = [
   },
   {
     id: 5,
-    imageSrc: StoreLosAngeles,
+    imageSrc: losAngeles,
     altText: "Los Angeles",
     title: "Los Angeles",
     address: "123 Los Angeles Street",
@@ -65,7 +65,7 @@ const stores = [
   },
   {
     id: 6,
-    imageSrc: StoreBrussels,
+    imageSrc: brussels,
     altText: "Brussels",
     title: "Brussels",
     address: "123 Brussels Street",
@@ -82,13 +82,8 @@ export default function StoresList() {
       {stores.map((store) => (
         <li
           key={store.id}
-          className="overflow-hidden rounded-xl border bg-orange-50 shadow">
-          <img
-            src={store.imageSrc}
-            alt={store.altText}
-            width={350}
-            height={233}
-          />
+          className="overflow-hidden rounded-3xl border bg-orange-50 shadow">
+          <img src={store.imageSrc} alt={store.altText} />
           <div className="flex flex-col gap-2 p-4">
             <h3 className="font-heading text-3xl font-semibold uppercase">
               {store.title}

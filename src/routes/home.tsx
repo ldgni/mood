@@ -1,9 +1,9 @@
 import { ScrollRestoration } from "react-router";
 
-import AboutImage from "@/assets/images/about-img.webp";
-import EventImage from "@/assets/images/event-img.webp";
-import FranchiseImage from "@/assets/images/franchise-img.webp";
-import StoreImage from "@/assets/images/store-img.webp";
+import about from "@/assets/images/about.webp";
+import event from "@/assets/images/event.webp";
+import franchise from "@/assets/images/franchise.webp";
+import stores from "@/assets/images/stores.webp";
 import IceCreamMp4 from "@/assets/videos/ice-cream.mp4";
 import IceCreamWebm from "@/assets/videos/ice-cream.webm";
 import Footer from "@/components/footer";
@@ -44,9 +44,10 @@ export default function HomeRoute() {
           <section className="bg-fuchsia-200/85">
             <div className="flex flex-col lg:h-full lg:flex-row">
               <img
-                src={StoreImage}
+                src={stores}
                 alt="Front of an ice cream shop"
                 className="h-[50vh] object-cover lg:h-full lg:w-1/2"
+                loading="lazy"
               />
               <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center sm:p-12 sm:text-lg md:gap-8 md:text-xl">
                 <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl">
@@ -67,9 +68,10 @@ export default function HomeRoute() {
           <section className="bg-indigo-300/85">
             <div className="flex flex-col lg:h-full lg:flex-row-reverse">
               <img
-                src={EventImage}
+                src={event}
                 alt="Shiny lights at an event"
                 className="h-[50vh] object-cover lg:h-full lg:w-1/2"
+                loading="lazy"
               />
               <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center sm:p-12 sm:text-lg md:gap-8 md:text-xl">
                 <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl">
@@ -90,9 +92,10 @@ export default function HomeRoute() {
           <section className="bg-sky-950/85">
             <div className="flex flex-col lg:h-full lg:flex-row">
               <img
-                src={AboutImage}
+                src={about}
                 alt="People drinking coffee"
                 className="h-[50vh] object-cover lg:h-full lg:w-1/2"
+                loading="lazy"
               />
               <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center text-neutral-100 sm:p-12 sm:text-lg md:gap-8 md:text-xl">
                 <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl">
@@ -113,9 +116,10 @@ export default function HomeRoute() {
           <section className="bg-violet-300/85">
             <div className="flex flex-col lg:h-full lg:flex-row-reverse">
               <img
-                src={FranchiseImage}
+                src={franchise}
                 alt="Workers inside a store"
                 className="h-[50vh] object-cover lg:h-full lg:w-1/2"
+                loading="lazy"
               />
               <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center sm:p-12 sm:text-lg md:gap-8 md:text-xl">
                 <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl">

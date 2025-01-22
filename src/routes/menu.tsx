@@ -1,7 +1,7 @@
 import Marquee from "react-fast-marquee";
 
-import FlavourImage1 from "@/assets/images/flavours/flavours-img-1.webp";
-import FlavourImage2 from "@/assets/images/flavours/flavours-img-2.webp";
+import flavours1 from "@/assets/images/flavours/flavours-1.webp";
+import flavours2 from "@/assets/images/flavours/flavours-2.webp";
 
 export default function MenuRoute() {
   return (
@@ -17,18 +17,14 @@ export default function MenuRoute() {
       </p>
       <Marquee>
         <img
-          src={FlavourImage1}
+          src={flavours1}
           alt="Ice cream flavours"
-          width={500}
-          height={333}
-          className="mr-8 rounded shadow"
+          className="mr-8 rounded-3xl"
         />
         <img
-          src={FlavourImage2}
+          src={flavours2}
           alt="Ice cream flavours"
-          width={500}
-          height={333}
-          className="mr-8 rounded shadow"
+          className="mr-8 rounded-3xl"
         />
       </Marquee>
       <p className="max-w-2xl">
