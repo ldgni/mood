@@ -20,11 +20,13 @@ export default function MenuRoute() {
           src={flavours1}
           alt="Ice cream flavours"
           className="mr-8 rounded-3xl"
+          loading="lazy"
         />
         <img
           src={flavours2}
           alt="Ice cream flavours"
           className="mr-8 rounded-3xl"
+          loading="lazy"
         />
       </Marquee>
       <p className="max-w-2xl">
