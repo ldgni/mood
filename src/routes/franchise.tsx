@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 
-import Modal from "@/components/modal";
+import Modal from "@/components/ui/modal";
 
 export default function FranchiseRoute() {
   const [showModal, setShowModal] = useState(false);

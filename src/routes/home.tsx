@@ -8,7 +8,7 @@ import IceCreamMp4 from "@/assets/videos/ice-cream.mp4";
 import IceCreamWebm from "@/assets/videos/ice-cream.webm";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
-import LinkButton from "@/components/link-button";
+import LinkButton from "@/components/ui/link-button";
 
 export default function HomeRoute() {
   return (
