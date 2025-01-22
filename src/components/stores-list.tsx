@@ -83,7 +83,7 @@ export default function StoresList() {
         <li
           key={store.id}
           className="overflow-hidden rounded-3xl border bg-orange-50 shadow">
-          <img src={store.imageSrc} alt={store.altText} />
+          <img src={store.imageSrc} alt={store.altText} loading="lazy" />
           <div className="flex flex-col gap-2 p-4">
             <h3 className="font-heading text-3xl font-semibold uppercase">
               {store.title}
