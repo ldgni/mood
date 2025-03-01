@@ -10,10 +10,11 @@ export default {
     extend: {
       container: {
         center: true,
+        padding: "1rem",
       },
-      colors: {
-        light: "#f2f2f2",
-        dark: "#1a1a1a",
+      fontFamily: {
+        sans: ["Satoshi", "sans-serif"],
+        heading: ["Space Grotesk", "sans-serif"],
       },
     },
   },
