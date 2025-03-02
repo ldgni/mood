@@ -12,6 +12,9 @@ export default {
         center: true,
         padding: "1rem",
       },
+      fontFamily: {
+        heading: "var(--heading-font)",
+      },
     },
   },
   plugins: [],

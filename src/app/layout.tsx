@@ -1,6 +1,15 @@
 import "@/styles/globals.css";
 
 import type { Metadata } from "next";
+import { Raleway } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
+
+const raleway = Raleway({ subsets: ["latin"], display: "swap" });
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--heading-font",
+});
 
 export const metadata: Metadata = {
   title: "Next Level Ice Creams",
@@ -14,7 +23,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="overflow-y-scroll">
-      <body className="bg-amber-50 text-indigo-950">
+      <body
+        className={`${raleway.className} ${spaceGrotesk.variable} bg-amber-50 text-indigo-950`}>
         <main>{children}</main>
       </body>
     </html>
