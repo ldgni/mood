@@ -1,8 +1,13 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
 
 import flavours1 from "../../../../public/images/flavours/flavours-1.webp";
 import flavours2 from "../../../../public/images/flavours/flavours-2.webp";
+
+export const metadata: Metadata = {
+  title: "Menu",
+};
 
 export default function MenuPage() {
   return (

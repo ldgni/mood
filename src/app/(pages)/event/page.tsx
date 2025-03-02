@@ -1,4 +1,10 @@
+import { Metadata } from "next";
+
 import PreorderButton from "@/components/preoder-button";
+
+export const metadata: Metadata = {
+  title: "Event",
+};
 
 export default function EventPage() {
   return (

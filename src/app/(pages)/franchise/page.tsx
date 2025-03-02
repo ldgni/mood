@@ -1,4 +1,10 @@
+import { Metadata } from "next";
+
 import FranchiseForm from "@/components/franchise-form";
+
+export const metadata: Metadata = {
+  title: "Franchise",
+};
 
 export default function FranchisePage() {
   return (

@@ -1,4 +1,10 @@
+import { Metadata } from "next";
+
 import StoresList from "@/components/stores-list";
+
+export const metadata: Metadata = {
+  title: "Stores",
+};
 
 export default function StoresPage() {
   return (

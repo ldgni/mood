@@ -1,4 +1,10 @@
+import { Metadata } from "next";
+
 import StatsCounter from "@/components/stats-counter";
+
+export const metadata: Metadata = {
+  title: "Results",
+};
 
 export default function AboutPage() {
   return (
