@@ -12,10 +12,6 @@ export default {
         center: true,
         padding: "1rem",
       },
-      fontFamily: {
-        sans: ["Satoshi", "sans-serif"],
-        heading: ["Space Grotesk", "sans-serif"],
-      },
     },
   },
   plugins: [],
