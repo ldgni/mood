@@ -9,7 +9,7 @@ export default function PagesLayout({
   return (
     <div className="container flex min-h-screen max-w-screen-md flex-col">
       <Header />
-      <main className="mt-24 sm:mt-28">{children}</main>
+      <main className="mt-28">{children}</main>
       <Footer />
     </div>
   );
