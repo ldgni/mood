@@ -13,8 +13,8 @@ export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">
       <Header />
-      <main>
-        <div className="lg:flex lg:flex-row-reverse">
+      <main className="w-full">
+        <div className="lg:flex lg:w-full lg:flex-row-reverse">
           <video
             className="pointer-events-none h-[50vh] w-full object-cover lg:h-screen lg:w-1/2"
             autoPlay
@@ -24,7 +24,7 @@ export default function HomePage() {
             <source src="videos/ice-cream.webm" type="video/webm" />
             <source src="videos/ice-cream.mp4" type="video/mp4" />
           </video>
-          <div className="mx-auto flex max-w-screen-sm flex-col items-center gap-6 px-4 py-8 text-center sm:text-lg md:gap-8 md:text-xl lg:min-h-screen lg:justify-center">
+          <div className="mx-auto flex max-w-screen-sm flex-col items-center gap-6 px-4 py-8 text-center sm:text-lg md:gap-8 md:text-xl lg:min-h-screen lg:w-1/2 lg:justify-center">
             <h1 className="font-heading text-6xl font-bold uppercase sm:text-7xl md:text-8xl">
               Next Level Ice Creams
             </h1>
@@ -39,15 +39,17 @@ export default function HomePage() {
             </LinkButton>
           </div>
         </div>
-        <div className="grid lg:grid-rows-4">
-          <section className="bg-fuchsia-200/85">
-            <div className="flex flex-col lg:h-full lg:flex-row">
-              <Image
-                src={stores}
-                alt="Front of an ice cream shop"
-                className="h-[50vh] object-cover lg:h-full lg:w-1/2"
-              />
-              <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center sm:p-12 sm:text-lg md:gap-8 md:text-xl">
+        <div className="grid w-full">
+          <section className="w-full bg-fuchsia-200/85">
+            <div className="flex flex-col lg:h-full lg:w-full lg:flex-row">
+              <div className="lg:w-1/2">
+                <Image
+                  src={stores}
+                  alt="Front of an ice cream shop"
+                  className="h-[50vh] w-full object-cover lg:h-full"
+                />
+              </div>
+              <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center sm:p-12 sm:text-lg md:gap-8 md:text-xl lg:w-1/2">
                 <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl">
                   Stores
                 </h2>
@@ -63,14 +65,16 @@ export default function HomePage() {
               </div>
             </div>
           </section>
-          <section className="bg-indigo-300/85">
-            <div className="flex flex-col lg:h-full lg:flex-row-reverse">
-              <Image
-                src={event}
-                alt="Shiny lights at an event"
-                className="h-[50vh] object-cover lg:h-full lg:w-1/2"
-              />
-              <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center sm:p-12 sm:text-lg md:gap-8 md:text-xl">
+          <section className="w-full bg-indigo-300/85">
+            <div className="flex flex-col lg:h-full lg:w-full lg:flex-row-reverse">
+              <div className="lg:w-1/2">
+                <Image
+                  src={event}
+                  alt="Shiny lights at an event"
+                  className="h-[50vh] w-full object-cover lg:h-full"
+                />
+              </div>
+              <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center sm:p-12 sm:text-lg md:gap-8 md:text-xl lg:w-1/2">
                 <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl">
                   Event
                 </h2>
@@ -86,14 +90,16 @@ export default function HomePage() {
               </div>
             </div>
           </section>
-          <section className="bg-sky-950/85">
-            <div className="flex flex-col lg:h-full lg:flex-row">
-              <Image
-                src={about}
-                alt="People drinking coffee"
-                className="h-[50vh] object-cover lg:h-full lg:w-1/2"
-              />
-              <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center text-neutral-100 sm:p-12 sm:text-lg md:gap-8 md:text-xl">
+          <section className="w-full bg-sky-950/85">
+            <div className="flex flex-col lg:h-full lg:w-full lg:flex-row">
+              <div className="lg:w-1/2">
+                <Image
+                  src={about}
+                  alt="People drinking coffee"
+                  className="h-[50vh] w-full object-cover lg:h-full"
+                />
+              </div>
+              <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center text-neutral-100 sm:p-12 sm:text-lg md:gap-8 md:text-xl lg:w-1/2">
                 <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl">
                   About
                 </h2>
@@ -109,14 +115,16 @@ export default function HomePage() {
               </div>
             </div>
           </section>
-          <section className="bg-violet-300/85">
-            <div className="flex flex-col lg:h-full lg:flex-row-reverse">
-              <Image
-                src={franchise}
-                alt="Workers inside a store"
-                className="h-[50vh] object-cover lg:h-full lg:w-1/2"
-              />
-              <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center sm:p-12 sm:text-lg md:gap-8 md:text-xl">
+          <section className="w-full bg-violet-300/85">
+            <div className="flex flex-col lg:h-full lg:w-full lg:flex-row-reverse">
+              <div className="lg:w-1/2">
+                <Image
+                  src={franchise}
+                  alt="Workers inside a store"
+                  className="h-[50vh] w-full object-cover lg:h-full"
+                />
+              </div>
+              <div className="mx-auto flex flex-col items-center justify-center gap-6 px-4 py-8 text-center sm:p-12 sm:text-lg md:gap-8 md:text-xl lg:w-1/2">
                 <h2 className="font-heading text-6xl font-bold uppercase sm:text-7xl">
                   Franchise
                 </h2>
