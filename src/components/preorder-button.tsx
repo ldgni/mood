@@ -10,7 +10,7 @@ export default function PreorderButton() {
   return (
     <>
       <button
-        className="rounded-full bg-slate-600 px-6 py-4 font-heading text-2xl font-semibold uppercase text-neutral-300 shadow duration-300 hover:scale-105 hover:opacity-75 sm:px-8 sm:py-6 sm:text-4xl"
+        className="font-heading rounded-full bg-slate-600 px-6 py-4 text-2xl font-semibold text-neutral-300 uppercase shadow duration-300 hover:scale-105 hover:opacity-75 sm:px-8 sm:py-6 sm:text-4xl"
         onClick={() => setShowModal(true)}>
         Preorder now
       </button>

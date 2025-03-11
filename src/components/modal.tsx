@@ -15,11 +15,11 @@ export default function Modal({
 
   return (
     <div
-      className="fixed inset-0 z-20 flex items-center justify-center bg-gray-500 bg-opacity-75 p-4"
+      className="fixed inset-0 z-20 flex items-center justify-center bg-gray-500/75 p-4"
       role="dialog"
       aria-modal="true">
       <div className="flex flex-col items-center gap-2 rounded-2xl bg-slate-600 p-4 text-center text-neutral-300 sm:p-6">
-        <h3 className="font-heading text-2xl font-semibold leading-none sm:text-4xl">
+        <h3 className="font-heading text-2xl leading-none font-semibold sm:text-4xl">
           {title}
         </h3>
         <p>{message}</p>

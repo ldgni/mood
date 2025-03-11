@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 
-import PreorderButton from "@/components/preoder-button";
+import PreorderButton from "@/components/preorder-button";
 
 export const metadata: Metadata = {
   title: "Event",
