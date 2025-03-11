@@ -94,7 +94,7 @@ export default function StoresList() {
             <div className="inline-block">
               <a
                 href={`mailto:${store.email}`}
-                className="underline transition-opacity hover:opacity-50">
+                className="underline transition-opacity hover:opacity-50 focus:outline-none focus-visible:rounded-sm focus-visible:ring-2 focus-visible:ring-indigo-500">
                 {store.email}
               </a>
             </div>
@@ -102,13 +102,13 @@ export default function StoresList() {
               <a
                 href={store.facebookLink}
                 aria-label="Facebook"
-                className="transition-transform hover:scale-125">
+                className="p-1 transition-transform hover:scale-125 focus:outline-none focus-visible:rounded-full focus-visible:ring-2 focus-visible:ring-indigo-500 active:scale-90">
                 <Facebook />
               </a>
               <a
                 href={store.instagramLink}
                 aria-label="Instagram"
-                className="transition-transform hover:scale-125">
+                className="p-1 transition-transform hover:scale-125 focus:outline-none focus-visible:rounded-full focus-visible:ring-2 focus-visible:ring-indigo-500 active:scale-90">
                 <Instagram />
               </a>
             </div>

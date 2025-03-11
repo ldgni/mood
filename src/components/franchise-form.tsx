@@ -27,7 +27,7 @@ export default function FranchiseForm() {
           name="name"
           id="name"
           placeholder="Your name"
-          className="rounded-3xl border px-4 py-2"
+          className="rounded-3xl border px-4 py-2 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500 focus:outline-none"
           autoComplete="off"
           required
         />
@@ -36,7 +36,7 @@ export default function FranchiseForm() {
           name="email"
           id="email"
           placeholder="Your email address"
-          className="rounded-3xl border px-4 py-2"
+          className="rounded-3xl border px-4 py-2 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500 focus:outline-none"
           autoComplete="off"
           required
         />
@@ -45,7 +45,7 @@ export default function FranchiseForm() {
           name="city"
           id="city"
           placeholder="Your city"
-          className="rounded-3xl border px-4 py-2"
+          className="rounded-3xl border px-4 py-2 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500 focus:outline-none"
           required
         />
         <textarea
@@ -53,11 +53,11 @@ export default function FranchiseForm() {
           id="intro"
           placeholder="Please introduce yourself briefly"
           rows={5}
-          className="rounded-3xl border px-4 py-2"
+          className="rounded-3xl border px-4 py-2 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500 focus:outline-none"
           required></textarea>
         <button
           type="submit"
-          className="font-heading rounded-3xl bg-indigo-950 p-2 font-bold text-neutral-100 uppercase duration-300 hover:opacity-75">
+          className="font-heading rounded-3xl bg-indigo-950 p-2 font-bold text-neutral-100 uppercase duration-300 hover:opacity-75 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 active:bg-indigo-900">
           Let&apos;s go!
         </button>
       </form>

@@ -25,12 +25,14 @@ export default function Header() {
   return (
     <header className="fixed right-0 left-0 z-10 mx-auto max-w-screen-md p-4">
       <nav className="font-heading flex items-center justify-between rounded-full border bg-amber-50 px-6 py-3 font-bold shadow sm:px-8 sm:py-4">
-        <Link href="/" className="text-2xl text-pink-300 uppercase">
+        <Link
+          href="/"
+          className="text-2xl text-pink-300 uppercase focus:outline-none focus-visible:rounded-md focus-visible:ring-2 focus-visible:ring-pink-500 focus-visible:ring-offset-2">
           Mood
         </Link>
         <button
           onClick={handleClick}
-          className="z-10 sm:hidden"
+          className="z-10 rounded-full p-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500 focus-visible:ring-offset-2 active:bg-amber-100 sm:hidden"
           aria-label="Menu">
           {isOpen ? <X size={32} /> : <Menu size={32} />}
         </button>
@@ -44,8 +46,8 @@ export default function Header() {
                 className={`${
                   pathname === link.href
                     ? "underline decoration-pink-300 decoration-2 underline-offset-4"
-                    : "duration-300 hover:text-pink-300"
-                } `}>
+                    : "duration-300 hover:text-pink-300 focus:text-pink-300"
+                } focus:outline-none focus-visible:rounded-sm focus-visible:ring-2 focus-visible:ring-pink-300 focus-visible:ring-offset-2 active:text-pink-400`}>
                 {link.label}
               </Link>
             </li>

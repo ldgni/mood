@@ -7,7 +7,7 @@ export default function NotFoundPage() {
       <p>
         <Link
           href="/"
-          className="font-medium hover:underline hover:underline-offset-4">
+          className="font-medium hover:underline hover:underline-offset-4 focus:outline-none focus-visible:rounded-sm focus-visible:ring-2 focus-visible:ring-pink-300">
           &rarr; Go back to home
         </Link>
       </p>
