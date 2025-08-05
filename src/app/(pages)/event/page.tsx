@@ -13,10 +13,10 @@ export default function EventPage() {
         Event
       </h1>
       <p className="max-w-2xl">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id
-        perspiciatis, corporis repellendus sapiente minus dolores accusamus
-        rerum fugit mollitia totam? Recusandae ipsam ducimus ea quasi assumenda!
-        Tenetur repudiandae fuga reiciendis!
+        Join us for exclusive ice cream events that celebrate flavor, community,
+        and creativity. From seasonal flavor launches to interactive tasting
+        experiences, our events are designed to bring people together and create
+        unforgettable moments around exceptional ice cream.
       </p>
       <PreorderButton />
     </div>

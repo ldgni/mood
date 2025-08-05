@@ -29,10 +29,9 @@ export default function HomePage() {
               Next Level Ice Creams
             </h1>
             <p className="max-w-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo
-              totam obcaecati aliquam placeat voluptas incidunt, sunt voluptatem
-              impedit vero culpa ipsa aut cupiditate natus. Sunt odio assumenda
-              fugit autem?
+              Experience artisanal ice cream like never before. We craft every
+              scoop with premium ingredients and innovative flavors that will
+              transform your mood and elevate your taste buds to new heights.
             </p>
             <LinkButton to="/menu" className="bg-indigo-950 text-amber-200">
               Our flavours
@@ -54,10 +53,10 @@ export default function HomePage() {
                   Stores
                 </h2>
                 <p className="max-w-lg">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Cumque, aliquam aut sequi nobis consectetur voluptates
-                  possimus nesciunt voluptatum esse tenetur harum! Sed totam,
-                  officiis ipsum aliquam ad tenetur recusandae fugit?
+                  Visit our beautiful locations across major cities worldwide.
+                  Each store offers a unique atmosphere where you can enjoy our
+                  handcrafted ice creams in spaces designed to brighten your day
+                  and lift your spirits.
                 </p>
                 <LinkButton to="/stores" className="bg-amber-50">
                   Locations
@@ -79,10 +78,10 @@ export default function HomePage() {
                   Event
                 </h2>
                 <p className="max-w-lg">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Recusandae ipsam neque aperiam fugiat! Cupiditate, dolore odio
-                  sapiente asperiores laudantium alias ut ratione ipsam, iste
-                  assumenda dolorem iure quaerat eveniet facilis.
+                  Join us for exclusive events and ice cream experiences that
+                  celebrate flavor, community, and good vibes. From tasting
+                  sessions to seasonal celebrations, there&apos;s always
+                  something exciting happening at Mood.
                 </p>
                 <LinkButton to="/event" className="bg-amber-50">
                   Pump up
@@ -104,10 +103,10 @@ export default function HomePage() {
                   About
                 </h2>
                 <p className="max-w-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                  vitae impedit soluta tenetur saepe, voluptas magnam voluptate
-                  distinctio reprehenderit, atque, harum modi fugiat porro ad
-                  vel natus facilis veritatis minima.
+                  Discover the story behind our passion for creating
+                  extraordinary ice cream. Learn about our commitment to
+                  quality, sustainability, and bringing joy to every customer
+                  through innovative flavors and exceptional service.
                 </p>
                 <LinkButton to="/about" className="bg-amber-50 text-indigo-950">
                   Find out more
@@ -129,11 +128,9 @@ export default function HomePage() {
                   Franchise
                 </h2>
                 <p className="max-w-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repudiandae doloribus, voluptatem quibusdam similique
-                  repellendus dolor a veniam ad consectetur temporibus minima
-                  cumque, quae suscipit eveniet debitis quo incidunt asperiores
-                  dicta.
+                  Ready to bring the Mood experience to your community? Partner
+                  with us to open your own ice cream shop and share our unique
+                  flavors and positive energy with customers in your area.
                 </p>
                 <LinkButton to="/franchise" className="bg-amber-50">
                   Become a partner

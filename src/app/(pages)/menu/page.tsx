@@ -16,10 +16,10 @@ export default function MenuPage() {
         Menu
       </h1>
       <p className="max-w-2xl">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo corrupti,
-        ratione, atque ipsum sunt maxime in magnam fugit reprehenderit sequi
-        deleniti fugiat assumenda culpa quaerat debitis nihil molestias
-        perferendis distinctio.
+        Explore our carefully curated selection of artisanal ice cream flavors,
+        each one crafted with premium ingredients and designed to create the
+        perfect mood-boosting experience. From classic favorites to innovative
+        seasonal creations, every scoop tells a delicious story.
       </p>
       <Marquee>
         <Image
@@ -34,10 +34,10 @@ export default function MenuPage() {
         />
       </Marquee>
       <p className="max-w-2xl">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus a
-        incidunt eaque iusto, mollitia aliquam necessitatibus porro sequi saepe
-        vero? Aspernatur tempora nihil illo doloribus iusto maxime architecto
-        inventore perferendis.
+        Our master ice cream makers use only the finest natural ingredients,
+        sourced responsibly to ensure both exceptional taste and quality. We
+        constantly innovate our flavors to surprise and delight, making every
+        visit a new adventure for your taste buds.
       </p>
     </div>
   );

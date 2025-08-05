@@ -13,18 +13,19 @@ export default function AboutPage() {
         About
       </h1>
       <p className="max-w-2xl">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et repudiandae
-        possimus quasi omnis placeat cum modi explicabo quaerat nesciunt illo
-        voluptatem ratione blanditiis enim, perferendis mollitia necessitatibus
-        at. Nihil, modi.
+        At Mood, we believe that great ice cream has the power to transform
+        moments and create lasting memories. Founded on a passion for
+        exceptional quality and innovative flavors, we&apos;ve dedicated
+        ourselves to crafting ice cream experiences that go beyond the ordinary.
       </p>
       <h2 className="font-heading text-4xl font-semibold uppercase sm:text-5xl md:text-6xl">
         Who we are
       </h2>
       <p className="max-w-2xl">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta at sit
-        magnam, in, ratione itaque optio, obcaecati voluptas necessitatibus vero
-        dolor. Laudantium temporibus nam ad ullam sunt ipsam corrupti facere?
+        We&apos;re a team of passionate artisans, flavor innovators, and ice
+        cream enthusiasts who believe in the magic of perfectly crafted
+        desserts. Our commitment to sustainability, quality ingredients, and
+        community connection drives everything we do.
       </p>
       <StatsCounter />
     </div>

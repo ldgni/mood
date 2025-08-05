@@ -13,18 +13,20 @@ export default function StoresPage() {
         Stores
       </h1>
       <p className="max-w-2xl">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint fugit
-        excepturi iste! Magnam corporis porro saepe sequi at autem dolorem,
-        perspiciatis itaque quam eum cum modi. Amet itaque ratione veritatis?
+        Discover your nearest location and immerse yourself in a world of
+        exceptional ice cream experiences. Each of our stores is thoughtfully
+        designed as a welcoming space where premium flavors meet inviting
+        atmosphere, creating the perfect setting to enjoy our handcrafted
+        creations.
       </p>
       <h2 className="font-heading text-4xl font-semibold uppercase sm:text-5xl md:text-6xl">
         Stay tuned!
       </h2>
       <p className="max-w-2xl">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae,
-        beatae. Recusandae ad eaque quaerat sequi dicta iure sit sunt deleniti,
-        labore, neque consequuntur molestiae tenetur nam tempore quam natus
-        accusamus.
+        We&apos;re constantly expanding to bring our exceptional ice cream
+        experience to new communities around the world. Follow us for updates on
+        upcoming locations and be the first to know when we&apos;re opening near
+        you.
       </p>
       <StoresList />
     </div>
