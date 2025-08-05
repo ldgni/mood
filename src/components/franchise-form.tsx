@@ -57,7 +57,7 @@ export default function FranchiseForm() {
           required></textarea>
         <button
           type="submit"
-          className="font-heading rounded-3xl bg-indigo-950 p-2 font-bold text-neutral-100 uppercase duration-300 hover:opacity-75 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 active:bg-indigo-900">
+          className="font-heading cursor-pointer rounded-3xl bg-indigo-950 p-2 font-bold text-neutral-100 uppercase duration-300 hover:opacity-75 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 active:bg-indigo-900">
           Let&apos;s go!
         </button>
       </form>
