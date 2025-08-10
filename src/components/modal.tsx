@@ -27,7 +27,7 @@ export default function Modal({
         </h3>
         <p>{message}</p>
         <button
-          className="rounded-full bg-neutral-300 px-4 py-2 font-medium text-indigo-950 duration-300 hover:opacity-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-100 active:bg-neutral-400"
+          className="cursor-pointer rounded-full bg-neutral-300 px-4 py-2 font-medium text-indigo-950 duration-300 hover:opacity-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-100 active:bg-neutral-400"
           onClick={() => setShowModal(false)}>
           Close
         </button>
